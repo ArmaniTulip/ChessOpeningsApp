@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpeningsApp.Openings.PonzianiOpeningPage"
+             Title="The Ponziani Opening"
+             BackgroundColor="Black">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label TextColor="White" FontSize="Body" Margin="20"
+            Text="The Ponziani Opening occurs when White plays c3 instead of
+developing a piece. White is hoping to follow with the pawn break d4
+and establish a formidable center. Most masters consider 3.c3 too slow,
+giving Black the opportunity to seize the initiative; therefore, the
+Ponziani is only used rarely as a surprise weapon at the top level."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Image Source="Resources/Images/ponziani_opening.png"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

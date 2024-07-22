@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpeningsApp.MainPage"
+             BackgroundColor="Black"
+             >
+    <ScrollView>
+        <VerticalStackLayout>
+            <Image Source="pawns_fr.png" />
+            <Label Text="Welcome to Chess" FontSize="40" VerticalOptions="Center" HorizontalOptions="Center" Margin="25" TextColor="White"></Label>
+            <Label Text=" Openings!" FontSize="40" VerticalOptions="Center" HorizontalOptions="Center" Margin="25" TextColor="White"></Label>
+            <Entry x:Name ="Username" Placeholder="Email" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
+            <Entry x:Name ="Password" Placeholder="Password" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
+            <Button Text="Register" TextColor="White" FontSize="Title" BackgroundColor="DarkRed" Clicked="OnRegisterButtonClicked" Margin="20" ></Button>
+            <Button Text="Login" TextColor="White" FontSize="Title" BackgroundColor="DarkRed" Clicked="OnLogonButtonClicked" Margin="20"></Button>
+            <Button Text="Continue as a Guest" TextColor="White" FontSize="Title" BackgroundColor="DarkRed" Clicked="OnGuestButtonClicked" Margin="20"></Button>
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+
+</ContentPage>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpeningsApp.Logon.Register"
+             Title="Register"
+             BackgroundColor="Black">
+    <ScrollView>
+    <VerticalStackLayout>
+        <Label TextColor="White" 
+            Text="Welcome to Chess Openings!"            
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+               Padding="10"/>
+        <Label TextColor="White"
+            Text="Please register below!"
+            FontSize="Medium"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+               Padding="10"/>
+        <Label
+            Margin="12"
+            Text="Enter First Name"
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+        <Entry x:Name ="RegisterFirstName" Placeholder="First Name" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
+        <Label
+            Margin="12"
+            Text="Enter Last Name"
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+        <Entry x:Name ="RegisterLastName" Placeholder="Last Name" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
+        <Label
+            Margin="12"
+            Text="Enter Email"
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+        <Entry x:Name = "RegisterEmail" Placeholder="Email" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
+        <Label
+            Margin="12"
+            Text="Enter Password"
+            HorizontalTextAlignment="Start"
+            TextColor="White"/>
+        <Entry x:Name ="RegisterPassword" Placeholder="Password" PlaceholderColor="White" Margin="10" TextColor="White"/>
+            <Button x:Name="RegisterButton" BackgroundColor="DarkRed" Text="Register" Clicked="OnRegisterButtonClicked" ></Button>
+
+
+
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

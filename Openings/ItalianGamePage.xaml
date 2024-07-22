@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpeningsApp.ItalianGamePage"
+             Title="The Italian Game Opening"
+             BackgroundColor="Black">
+    <ScrollView>
+    <VerticalStackLayout >
+        <Label FontSize="Body" Margin="20" TextColor="White" 
+            Text="The Italian Game is one of the oldest classical openings for White. With Bc4,
+White takes aim at Black's weak f7 pawn. In most variations, White has options to dictate the pace of the game,
+making the Italian a flexible weapon."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+               />
+        <Image Source="Resources/Images/italian_game.png"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

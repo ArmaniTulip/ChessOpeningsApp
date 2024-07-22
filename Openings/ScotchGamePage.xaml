@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OpeningsApp.Openings.ScotchGamePage"
+             Title="The Scotch Game"
+             Background="Black">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label FontSize="Body" Margin="20" TextColor="White" 
+            Text="The Scotch Game occurs when White breaks in the center with 3.d4,
+immediately opening the center. Black is able to equalize with highly
+accurate play, but the Scotch offers plenty of opportunity for White to
+tactically outplay their opponent under practical conditions."           
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Image Source="Resources/Images/scotch_game.png"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
