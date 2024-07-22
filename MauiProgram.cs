@@ -22,4 +22,6 @@ namespace OpeningsApp
             return builder.Build();
         }
     }
+    
+
 }

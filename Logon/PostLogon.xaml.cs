@@ -2,12 +2,15 @@ using OpeningsApp.Openings;
 
 namespace OpeningsApp.Logon;
 
+
+
 public partial class PostLogon : ContentPage
 {
 	public PostLogon()
 	{
 		InitializeComponent();
 	}
+    
     private async void OnItalianGameClicked(object sender, EventArgs e)
     {
 

@@ -31,13 +31,18 @@ namespace OpeningsApp
         }
 
         private async void OnRegisterButtonClicked(object sender, EventArgs e)
-            {
+        {
 
-                await Navigation.PushAsync(new Register());
-            }
+            await Navigation.PushAsync(new Register());
+        }
+
+        private async void OnGuestButtonClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PostLogon());
+        }
 
 
-        
+
 
     }
 }

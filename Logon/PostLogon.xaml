@@ -7,6 +7,8 @@
              BackgroundColor="Black">
     <ScrollView>
         <VerticalStackLayout Spacing="20" Padding="20">
+            <SearchBar Placeholder="Search Openings..."/>
+            <ListView x:Name="searchResults"></ListView>
             <Button Text="Italian Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnItalianGameClicked"></Button>
             <Button Text="Ruy Lopez" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnRuyLopezClicked"></Button>
             <Button Text="Scotch Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnScotchGameClicked"></Button>

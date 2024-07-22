@@ -29,7 +29,7 @@
             Text="Enter Last Name"
             HorizontalTextAlignment="Start"
             TextColor="White"/>
-        <Entry x:Name ="RegisterLastName" Placeholder="Last Name" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
+        <Entry x:Name ="RegisterLastName" Placeholder="Last Name" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White" />
         <Label
             Margin="12"
             Text="Enter Email"
@@ -42,7 +42,7 @@
             HorizontalTextAlignment="Start"
             TextColor="White"/>
         <Entry x:Name ="RegisterPassword" Placeholder="Password" PlaceholderColor="White" Margin="10" TextColor="White"/>
-            <Button x:Name="RegisterButton" BackgroundColor="DarkRed" Text="Register" Clicked="OnRegisterButtonClicked" ></Button>
+            <Button x:Name="RegisterButton" BackgroundColor="DarkRed" TextColor="White" Text="Register" Clicked="OnRegisterButtonClicked" ></Button>
 
 
 
