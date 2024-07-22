@@ -31,4 +31,12 @@ public partial class PostLogon : ContentPage
 
         await Navigation.PushAsync(new PonzianiOpeningPage());
     }
+    private async void OnFourKnightsGameClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new FourKnightsGamePage());
+    }
+    private async void OnPetrovsDefenseClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PetrovsDenfensePage());
+    }
 }
