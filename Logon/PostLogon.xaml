@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-     
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OpeningsApp.Logon.PostLogon"
              Title="Openings"
              BackgroundColor="Black">
+
     <ScrollView>
         <VerticalStackLayout Spacing="20" Padding="20">
-            <SearchBar Placeholder="Search Openings..."/>
-            <ListView x:Name="searchResults"></ListView>
+            
             <Button Text="Italian Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnItalianGameClicked"></Button>
             <Button Text="Ruy Lopez" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnRuyLopezClicked"></Button>
             <Button Text="Scotch Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnScotchGameClicked"></Button>
@@ -25,5 +25,5 @@
             <Button Text="King's Gambit" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnKingsGambitClicked"></Button>
         </VerticalStackLayout>
     </ScrollView>
-    
+
 </ContentPage>
