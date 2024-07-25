@@ -5,8 +5,10 @@
              Title="PetrovsDenfensePage">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            Text="The Petrov's Defense (or Russian Game) is a opening where Black
+counter-attacks White's e-pawn. Players will often use the Petrov to
+avoid entering the more theoretical openings that occur after 2...Nc6."/>
+        <Image Source="petrovs_defense.png" />
+
     </VerticalStackLayout>
 </ContentPage>

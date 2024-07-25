@@ -62,6 +62,7 @@
 	  <None Remove="Resources\Images\four_knights_game.png" />
 	  <None Remove="Resources\Images\italian_game.png" />
 	  <None Remove="Resources\Images\pawns_fr.png" />
+	  <None Remove="Resources\Images\petrovs_defense.png" />
 	  <None Remove="Resources\Images\ponziani_opening.png" />
 	  <None Remove="Resources\Images\ruy_lopez.png" />
 	  <None Remove="Resources\Images\scotch_game.png" />
