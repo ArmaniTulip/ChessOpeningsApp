@@ -7,22 +7,25 @@
              BackgroundColor="Black">
 
     <ScrollView>
-        <VerticalStackLayout Spacing="20" Padding="20">
-            
-            <Button Text="Italian Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnItalianGameClicked"></Button>
-            <Button Text="Ruy Lopez" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnRuyLopezClicked"></Button>
-            <Button Text="Scotch Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnScotchGameClicked"></Button>
-            <Button Text="Ponziani Opening" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnPonzianiOpeningClicked"></Button>
-            <Button Text="Four Knights Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked ="OnFourKnightsGameClicked"></Button>
-            <Button Text="Petrov's Defense" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnPetrovsDefenseClicked"></Button>
-            <Button Text="Philidor Defense" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnPhilidorDefenseClicked"></Button>
-            <Button Text="Elephant Gambit" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnElephantGambitClicked"></Button>
-            <Button Text="Latvian Gambit" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnLatvianGambitClicked"></Button>
-            <Button Text="Center Game" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnCenterGameClicked"></Button>
-            <Button Text="Danish Gambit" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnDanishGambitClicked"></Button>
-            <Button Text="Vienna Game" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnViennaGameClicked"></Button>
-            <Button Text="Bishop's Opening" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnBishopsOpeningClicked"></Button>
-            <Button Text="King's Gambit" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnKingsGambitClicked"></Button>
+        <VerticalStackLayout Spacing="10" Padding="20">
+
+            <SearchBar Placeholder="Search Openings..." TextChanged="OnSearchBarTextChanged" TextColor="White" PlaceholderColor="Grey" BackgroundColor="DimGray"/>
+            <StackLayout x:Name="ButtonsContainer">
+            <Button Text="Italian Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnItalianGameClicked" Margin="0,5"></Button>
+                <Button Text="Ruy Lopez" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnRuyLopezClicked" Margin="0,5"></Button>
+                <Button Text="Scotch Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnScotchGameClicked" Margin="0,5"></Button>
+                <Button Text="Ponziani Opening" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnPonzianiOpeningClicked" Margin="0,5"></Button>
+                <Button Text="Four Knights Game" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked ="OnFourKnightsGameClicked" Margin="0,5"></Button>
+                <Button Text="Petrov's Defense" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnPetrovsDefenseClicked" Margin="0,5"></Button>
+                <Button Text="Philidor Defense" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnPhilidorDefenseClicked" Margin="0,5"></Button>
+                <Button Text="Elephant Gambit" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnElephantGambitClicked" Margin="0,5"></Button>
+                <Button Text="Latvian Gambit" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnLatvianGambitClicked" Margin="0,5"></Button>
+                <Button Text="Center Game" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnCenterGameClicked" Margin="0,5"></Button>
+                <Button Text="Danish Gambit" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnDanishGambitClicked" Margin="0,5"></Button>
+                <Button Text="Vienna Game" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnViennaGameClicked" Margin="0,5"></Button>
+                <Button Text="Bishop's Opening" BackgroundColor="Sienna" FontSize="Title" TextColor="Black" Clicked="OnBishopsOpeningClicked" Margin="0,5"></Button>
+                <Button Text="King's Gambit" BackgroundColor="NavajoWhite" FontSize="Title" TextColor="Black" Clicked="OnKingsGambitClicked" Margin="0,5"></Button>
+            </StackLayout>
         </VerticalStackLayout>
     </ScrollView>
 

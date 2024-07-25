@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\bishops_opening.png" />
 	  <None Remove="Resources\Images\elephant_gambit.png" />
 	  <None Remove="Resources\Images\four_knights_game.png" />
 	  <None Remove="Resources\Images\italian_game.png" />
