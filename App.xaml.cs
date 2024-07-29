@@ -10,7 +10,7 @@
             {
                 if (database == null)
                 {
-                    string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "OpeningsApp.db3");
+                    string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "MyChessApp");
                     database = new DatabaseService(dbPath);
                 }
                 return database;

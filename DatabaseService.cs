@@ -13,7 +13,16 @@ namespace OpeningsApp
 
         public DatabaseService(string dbPath)
         {
-            _database = new SQLiteAsyncConnection(dbPath);
+            if (File.Exists(dbPath))
+            {
+                _database = new SQLiteAsyncConnection(dbPath, SQLiteOpenFlags.ReadWrite);
+            }
+            else 
+            {
+                _database = new SQLiteAsyncConnection(dbPath);
+            }
+
+            
             _database.CreateTableAsync<UserClass>().Wait();
         }
 
