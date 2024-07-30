@@ -1,15 +1,19 @@
 ﻿using OpeningsApp.Logon;
 using OpeningsApp.Openings;
+using OpeningsApp.ViewModel;
+using System.ComponentModel;
 
 namespace OpeningsApp
 {
     public partial class MainPage : ContentPage
     {
-
+        private MainPageViewModel viewModel;
 
         public MainPage()
         {
             InitializeComponent();
+            viewModel = new MainPageViewModel();
+            BindingContext = viewModel;
         }
 
         private async void OnLogonButtonClicked(object sender, EventArgs e)
