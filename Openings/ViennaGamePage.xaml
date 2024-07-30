@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="OpeningsApp.Openings.ViennaGamePage"
-             Title="ViennaGamePage">
+             Title="Vienna Game">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="The Vienna Game is an uncommon yet perfectly sound opening where
+White first develops their queenside knight. By delaying the move Nf3,
+White is able to stay flexible with their kingside development."
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        <Image Source="vienna_game.png" />
+
     </VerticalStackLayout>
 </ContentPage>

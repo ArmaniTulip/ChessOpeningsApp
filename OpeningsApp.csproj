@@ -58,14 +58,20 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\bishops_opening.png" />
+	  <None Remove="Resources\Images\center_game.png" />
+	  <None Remove="Resources\Images\danish_game.png" />
 	  <None Remove="Resources\Images\elephant_gambit.png" />
 	  <None Remove="Resources\Images\four_knights_game.png" />
 	  <None Remove="Resources\Images\italian_game.png" />
+	  <None Remove="Resources\Images\kings_gambit.png" />
+	  <None Remove="Resources\Images\latvian_gambit.png" />
 	  <None Remove="Resources\Images\pawns_fr.png" />
 	  <None Remove="Resources\Images\petrovs_defense.png" />
+	  <None Remove="Resources\Images\philidor_defense.png" />
 	  <None Remove="Resources\Images\ponziani_opening.png" />
 	  <None Remove="Resources\Images\ruy_lopez.png" />
 	  <None Remove="Resources\Images\scotch_game.png" />
+	  <None Remove="Resources\Images\vienna_game.png" />
 	</ItemGroup>
 
 	<ItemGroup>
