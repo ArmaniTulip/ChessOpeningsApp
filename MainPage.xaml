@@ -10,7 +10,8 @@
             <Label Text="Welcome to Chess" FontSize="40" VerticalOptions="Center" HorizontalOptions="Center" Margin="25" TextColor="White"></Label>
             <Label Text=" Openings!" FontSize="40" VerticalOptions="Center" HorizontalOptions="Center" Margin="25" TextColor="White"></Label>
             <Entry x:Name ="Username" Placeholder="Email" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White"/>
-            <Entry x:Name ="Password" Placeholder="Password" PlaceholderColor="White" BackgroundColor="Black" Margin="10" TextColor="White" IsPassword="{Binding IsPasswordHidden}"/>
+            <Entry x:Name ="Password" Placeholder="Password" PlaceholderColor="White" BackgroundColor="Black"
+                   Margin="10" TextColor="White" IsPassword="{Binding IsPasswordHidden}"/>
             <CheckBox x:Name="ShowPasswordCheckBox"
               IsChecked="{Binding IsPasswordHidden}"
               HorizontalOptions="Start"/>
