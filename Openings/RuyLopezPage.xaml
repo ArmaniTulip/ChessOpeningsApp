@@ -14,7 +14,8 @@ knight on c6. Theory in the Ruy Lopez is incredibly extensive, and it
 remains one of the most popular openings among players of all levels."
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-            <Image Source="Resources/Images/ruy_lopez.png"/>
+            <Image Source="ruy_lopez.png" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

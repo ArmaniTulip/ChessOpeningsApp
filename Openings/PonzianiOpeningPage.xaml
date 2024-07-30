@@ -14,7 +14,8 @@ giving Black the opportunity to seize the initiative; therefore, the
 Ponziani is only used rarely as a surprise weapon at the top level."
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-            <Image Source="Resources/Images/ponziani_opening.png"/>
+            <Image Source="ponziani_opening.png" />
+
 
         </VerticalStackLayout>
     </ScrollView>

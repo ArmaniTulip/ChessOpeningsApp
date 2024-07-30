@@ -13,7 +13,8 @@ accurate play, but the Scotch offers plenty of opportunity for White to
 tactically outplay their opponent under practical conditions."           
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-            <Image Source="Resources/Images/scotch_game.png"/>
+            <Image Source="scotch_game.png" />
+
         </VerticalStackLayout>
     </ScrollView>
 

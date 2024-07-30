@@ -12,7 +12,8 @@ White takes aim at Black's weak f7 pawn. In most variations, White has options t
 making the Italian a flexible weapon."
             VerticalOptions="Center" 
             HorizontalOptions="Center"/>
-            <Image Source="Resources/Images/italian_game.png"/>
+            <Image Source="italian_game.png" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
