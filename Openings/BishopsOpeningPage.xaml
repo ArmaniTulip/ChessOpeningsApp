@@ -9,7 +9,7 @@
             Text="The Bishop's Opening is a line in the Open Game where White commits
 their light-square bishop relatively early, taking aim at f7. Since Bc4 is a
 common move in several openings, it is fairly common for the Bishop's
-Opening to transpose."/>
+Opening to transpose." FontSize="Body" Margin="20" TextColor="White"/>
         <Image Source="bishops_opening.png" />
 
     </VerticalStackLayout>

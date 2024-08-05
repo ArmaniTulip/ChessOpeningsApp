@@ -8,7 +8,7 @@
         <Label Text="The Elephant Gambit is an offbeat opening where Black quickly breaks
 in the center with ...d5, ignoring the threat of White's previous move.
 Despite its dubious reputation, the gambit scores surprisingly well
-against unprepared opponents at all levels." TextColor="White"/>
+against unprepared opponents at all levels." FontSize="Body" Margin="20" TextColor="White"/>
         <Image Source="elephant_gambit.png" />
 
         

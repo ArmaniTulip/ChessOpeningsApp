@@ -9,7 +9,7 @@
 available for White. If Black accepts the gambit, White will usually
 develop their kingside with an Italian-like setup and target Black's weak
 f7 pawn. The King's Gambit enjoys the most popularity among
-amateur-level players, where Black is less likely to know the theory."
+amateur-level players, where Black is less likely to know the theory." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="kings_gambit.png" />

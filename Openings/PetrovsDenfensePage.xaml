@@ -8,7 +8,7 @@
         <Label 
             Text="The Petrov's Defense (or Russian Game) is a opening where Black
 counter-attacks White's e-pawn. Players will often use the Petrov to
-avoid entering the more theoretical openings that occur after 2...Nc6."/>
+avoid entering the more theoretical openings that occur after 2...Nc6." FontSize="Body" Margin="20" TextColor="White"/>
         <Image Source="petrovs_defense.png" />
 
     </VerticalStackLayout>

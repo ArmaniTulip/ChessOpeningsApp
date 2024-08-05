@@ -8,7 +8,7 @@
             Text="The Latvian Gambit is a highly aggressive reply to 2.Nf3. The gambit is
 considered unsound; Black already has two pawns hanging and White
 can capture either with a slight advantage. Even so, the opening sees
-quick wins and impressive scores at the amateur-level."
+quick wins and impressive scores at the amateur-level." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="latvian_gambit.png" />

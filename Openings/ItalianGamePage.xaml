@@ -9,7 +9,7 @@
             <Label FontSize="Body" Margin="20" TextColor="White" 
             Text="The Italian Game is one of the oldest classical openings for White. With Bc4,
 White takes aim at Black's weak f7 pawn. In most variations, White has options to dictate the pace of the game,
-making the Italian a flexible weapon."
+making the Italian a flexible weapon." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center"/>
             <Image Source="italian_game.png" />

@@ -8,7 +8,7 @@
             Text="The Philidor Defense is a solid but somewhat passive opening for Black.
 With 2...d6, Black secures their e5 pawn and opens a diagonal for their
 light-square bishop, at the cost of blocking in the other bishop. The
-Philidor is popular at lower ratings, but rarely played among masters."
+Philidor is popular at lower ratings, but rarely played among masters." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="philidor_defense.png" />

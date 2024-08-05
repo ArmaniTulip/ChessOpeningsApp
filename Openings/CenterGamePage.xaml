@@ -9,7 +9,7 @@
 White immediately contests Black's e-pawn. The opening is not used
 often at the master level, because it gives Black good chances of
 equalizing. However, it is generally considered a safe and active way for
-White to play."
+White to play." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="center_game.png" />

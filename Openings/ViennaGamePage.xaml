@@ -7,7 +7,7 @@
         <Label 
             Text="The Vienna Game is an uncommon yet perfectly sound opening where
 White first develops their queenside knight. By delaying the move Nf3,
-White is able to stay flexible with their kingside development."
+White is able to stay flexible with their kingside development." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="vienna_game.png" />

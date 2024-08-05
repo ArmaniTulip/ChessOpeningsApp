@@ -7,7 +7,7 @@
         <Label Text="The Four Knights Game is a symmetrical opening where both sides
 prioritize developing their knights to their most natural squares. Black
 usually has good chances of equalizing, which is why 3.Nc3 (the Three
-Knights Game) is considered unambitious for White." TextColor="White"/>
+Knights Game) is considered unambitious for White." FontSize="Body" Margin="20" TextColor="White"/>
         <Image Source="four_knights_game.png" />
 
     </VerticalStackLayout>

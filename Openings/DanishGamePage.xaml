@@ -8,7 +8,7 @@
             Text="The Danish Gambit is an aggressive opening where White sacrifices up
 to two pawns in order to gain a significant lead in development and
 dangerous open diagonals toward Black's kingside. The Danish scores
-poorly among masters, but sees great success for amateurs and below."
+poorly among masters, but sees great success for amateurs and below." FontSize="Body" Margin="20" TextColor="White"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         <Image Source="danish_game.png" />
